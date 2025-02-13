@@ -1,0 +1,15 @@
+O raciocínio por detrás de micrograd:
+
+#TODO: estudo comparativo entre pytorch e tensorFlow e algumas outras bibliotecas.
+
+Tensorflow, Pytorch são bibliotecas de deepLearning. Para realizarem essa função elas precisam ser capazes de realizar a construção de um grafo capaz de manter um histórico das operações. Isso é necessário para a realização do processo de diferenciação automática(?)
+
+Por exemplo, se definimos um números (ou de forma mais genérica, tensores) A e B. E realizamos a operação C = A+B,  e D = f(C). Precisamos ser capazes de saber e manter um registro dos valores originais para fazer a aplicação da regra da cadeia na diferenciação automática.
+
+	
+#TODO: Construir micrograd e entender porque as escolhas foram feitas da forma que foram feitas.
+
+
+
+
+
